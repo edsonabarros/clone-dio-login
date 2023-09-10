@@ -69,31 +69,31 @@
 /*BANNER*/
 
 .banner__container {
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.banner__texto {
-  color: aliceblue;
-  width: 700px;
+  width: 1200px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.banner__info {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  padding-left: 250px;
+  width: 600px;
 }
 
-.banner__texto__titulo {
-  font-size: 3rem;
+.banner__info__titulo {
+  font-size: 3.5rem;
 }
 
-.banner__texto__paragrafo {
-  font-size: 1.1rem;
+.banner__info__paragrafo {
+  font-size: 1rem;
+  line-height: 25px;
+  margin-bottom: 35px;
 }
 
-.banner__texto__botao{
-  align-self: flex-start;
-  width: 200px;
+.banner__info__botao {
+  width: 180px;
   height: 40px;
 }

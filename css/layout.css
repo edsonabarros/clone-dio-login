@@ -1,6 +1,6 @@
 header{
   background-color: #151515;
-  width: 100%;
+  width: 100vw; 
   height: 43px;
   padding: 16px;
   display: flex;
@@ -9,12 +9,16 @@ header{
 }
 
 .banner{
-  width: 100%;
+  width: 100vw;
   height: 450px;
   background: linear-gradient(99.06deg, rgb(0, 0, 0) 45.8%, rgba(0, 0, 0, 0) 90.54%) center center / cover no-repeat, url(https://hermes.digitalinnovation.one/public/components/pages/home/header/banner-play.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.carreiras{
+
 }
