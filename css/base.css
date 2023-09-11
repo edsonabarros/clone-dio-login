@@ -359,6 +359,6 @@ li{
   list-style: none;
 }
 
-span{
+span, p, h1{
   color: aliceblue;
 }

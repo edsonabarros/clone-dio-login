@@ -67,9 +67,7 @@
 }
 
 /*BANNER*/
-
 .banner__container {
-  width: 1200px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -81,6 +79,8 @@
   justify-content: space-between;
   flex-direction: column;
   width: 600px;
+  margin-bottom: 20px;
+  margin-left: 25px;
 }
 
 .banner__info__titulo {
@@ -90,10 +90,37 @@
 .banner__info__paragrafo {
   font-size: 1rem;
   line-height: 25px;
-  margin-bottom: 35px;
+  margin-top: -10px;
 }
 
 .banner__info__botao {
   width: 180px;
   height: 40px;
+  margin: 1.8rem 0px;
+}
+
+
+/*CARREIRAS*/
+
+.carreiras__conteiner{
+  display: flex;
+  justify-content: center;
+}
+
+.carreiras__info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.carreiras__info__titulo{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.carreiras__cor__titulo{
+  color: #7f28b5;
+  font-weight: bold;
+  font-size: 3rem;
 }

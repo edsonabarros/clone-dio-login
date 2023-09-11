@@ -1,8 +1,7 @@
 header{
   background-color: #151515;
   width: 100vw; 
-  height: 43px;
-  padding: 16px;
+  height: 83px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -20,5 +19,14 @@ header{
 }
 
 .carreiras{
+  background-color: #1E192C;
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.container{
+  width: 1200px;
 }

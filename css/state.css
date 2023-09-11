@@ -1,4 +1,11 @@
+/*header*/
 .logar__entrar:hover{
   background-color: #932ED1;
   border: none;
+}
+
+/*banner*/
+
+.banner__info__botao:hover, .logar__registrar:hover{
+  background-color: #9e37df;
 }
