@@ -99,28 +99,65 @@
   margin: 1.8rem 0px;
 }
 
-
 /*CARREIRAS*/
 
-.carreiras__conteiner{
+.carreiras__conteiner {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
-
-.carreiras__info{
+/* INFOS */
+.carreiras__info {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.carreiras__info__titulo{
+.carreiras__info__titulo {
   font-weight: bold;
   font-size: 3rem;
 }
 
-.carreiras__cor__titulo{
+.carreiras__cor__titulo {
   color: #7f28b5;
   font-weight: bold;
   font-size: 3rem;
+}
+
+/* CARDS */
+.carreiras__cards {
+  display: flex;
+}
+
+.carreiras__cards__scoll_ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carreiras__ul__card {
+  background-color: #161221;
+  width: 320px;
+  height: 400px;
+  margin-right: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 10px;
+}
+
+.ul__card__titulo {
+  font-weight: 400;
+  font-size: 42px;
+  margin: 0 0 1rem 1rem;
+  max-width: 250px;
+  text-decoration: none;
+}
+
+.ul__card__lista {
+  font-size: 1rem;
+  color: #9d9d9d;
+  margin: 0.5rem 0px;
+  list-style: disc;
 }
