@@ -1,3 +1,7 @@
+.container{
+  width: 1200px;
+}
+
 header{
   background-color: #151515;
   width: 100vw; 
@@ -27,6 +31,11 @@ header{
   align-items: center;
 }
 
-.container{
-  width: 1200px;
+.tecnologias{
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
